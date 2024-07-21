@@ -1,3 +1,6 @@
 # mtm6302-persistent-preferences
 NAME- ROHIT DEORA
 STUDENT ID = 041109067
+FIRST I CODED THAN UPLOAD FILES BY DRAG AND DROP
+RESULT IMAGES ARE GIVEN BELOW-:
+![p4](https://github.com/user-attachments/assets/810827e0-4630-4c0f-8a7e-15998f95c67d)
