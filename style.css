@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #c3f806;
+    color: #fff;
+    position: relative;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker green on hover */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(54, 250, 5, 0.8);
+    border-radius: 12px; /* Slightly larger radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+    width: 300px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.preferences {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #007bff; /* Example: blue outline */
+    outline-offset: 2px;
+}
+
+input:hover, select:hover {
+    background-color: #1ef806; /* Light grey background on hover */
+}
+
+.about-container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(250, 5, 5, 0.8);
+    border-radius: 12px; /* Slightly larger radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
